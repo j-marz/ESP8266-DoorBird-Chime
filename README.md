@@ -23,6 +23,7 @@ Note, you'll need to find the IP address of your DoorBird and the ESP8266 device
 ## Testing
 You can test the chime directly using your web browser
 `http://<IP address of your ESP8266>/`
+
 Click on the chime options
 * `dingDong` Ding Dong tone + LED
 * `silent` 20 LED flashes over 10 seconds
@@ -32,3 +33,7 @@ I've included STL files of a 3D printed case i designed for the specific NodeMCU
 * Speaker hole and mount point on rear lid
 * Hole for onboard LED on front
 * Holes for Devboard buttons on front
+
+## To Do
+* Add authentication to the web service
+* Add more chime options
