@@ -28,7 +28,7 @@ Click on the chime options
 * `silent` 20 LED flashes over 10 seconds
 
 ## Enclosure/case
-I've included STL files of a 3D printed case i designed for the specific NodeMCU devboard lsited above. The case may not be suitable for all NodeMCU variants (e.g. Amica)
+I've included STL files of a 3D printed case i designed for the specific NodeMCU devboard listed above. The case may not be suitable for all NodeMCU variants (e.g. Amica)
 * Speaker hole and mount point on rear lid
 * Hole for onboard LED on front
 * Holes for Devboard buttons on front
