@@ -14,7 +14,7 @@ A low cost (<$15AUD) alternative to the DoorBird IP Door Chime A1061W ~$250AUD
 2. Use Arduino IDE to upload sketch to the ESP8266
 3. Connect the buzzer module to the GPIO pins using jumper wires - GND to G, VCC to 3V, I/O to D1
 4. Configure the DoorBird's notification event API to call the web service on the ESP8266 - you will be promted to enter the DoorBird's username and password
-`http://<IP address of your DoorBird>/bha-api/notification.cgi?url=http://<IP address of your ESP8266>/chime=dingDong/?&event=doorbell&subscribe=1`
+`http://<IP address of your DoorBird>/bha-api/notification.cgi?url=http://<IP address of your ESP8266>/chime=dingDong/&event=doorbell&subscribe=1`
 
 See DoorBird's API documentation for more info - https://www.doorbird.com/downloads/api_lan.pdf?rev=0.17
 
